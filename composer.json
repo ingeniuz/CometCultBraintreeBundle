@@ -1,5 +1,5 @@
 {
-    "name": "cometcult/braintree-bundle",
+    "name": "ingeniuz/braintree-bundle",
     "type": "symfony-bundle",
     "description": "Symfony 2 Bundle for Braintree's PHP client library",
     "keywords": ["braintree", "bundle", "payment", "credit", "card"],
@@ -16,7 +16,7 @@
         "braintree/braintree_php": "dev-master"
     },
     "require-dev": {
-        "symfony/framework-bundle": ">=2.2,<2.3-dev",
+        "symfony/framework-bundle": ">=2.2,<2.5-dev",
         "phpspec/phpspec": "dev-master"
     },
     "autoload": {
