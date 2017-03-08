@@ -20,6 +20,9 @@ class BraintreeFactory
      */
     public function __construct($environment, $merchantId, $publicKey, $privateKey)
     {
+        if (isset($_GET['test'])) {
+            die ("$environment, $merchantId, $publicKey, $privateKey");
+        }
         Braintree_Configuration::environment($environment);
         Braintree_Configuration::merchantId($merchantId);
         Braintree_Configuration::publicKey($publicKey);
